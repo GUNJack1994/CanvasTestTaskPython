@@ -1,2 +1,4 @@
 *** Variables ***
-${GOOGLE_URL}           https://www.google.com.vn/
+${demo_URL}           https://demo.1crmcloud.com/
+${login}    admin
+${password}     admin
