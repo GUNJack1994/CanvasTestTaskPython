@@ -1,5 +1,8 @@
 *** Settings ***
-Library    SeleniumLibrary
+Library  SeleniumLibrary
+Variables  ../Locators/Locators.py
+Variables  ../TestData/Testdata.py
+
 *** Keywords ***
 Open Url
     [Arguments]     ${browser}    ${url}
